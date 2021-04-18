@@ -5,4 +5,4 @@ st.title('spam ham classifier')
 ip = st.text_input('Enter your message')
 op = model.predict([ip])
 if st.buttom('predict'):
-  st.title(op[0])
+  st.title(op[0]) 
